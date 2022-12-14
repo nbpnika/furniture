@@ -1,0 +1,31 @@
+*{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+body{
+    color: $cmain;
+}
+.section_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 24px 0;
+    margin-bottom: 24px;
+    border: 1px solid #DFDEDB;
+    text-align: center;
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 0px;                      
+    }
+
+}
+.shopAll_title{
+    display: flex;
+    justify-content: center;
+    padding: 22px 0;
+    font-size: 12px;
+    border: 1px solid #DFDEDB;
+    margin-bottom: 16px;
+}

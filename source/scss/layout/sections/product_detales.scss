@@ -1,0 +1,40 @@
+.product_detales_section{
+    background-color: $cmain;
+    margin-bottom: 54px;
+    h2{
+        font-weight: 400;
+    }
+    .shopAll_title{
+        color: $cwhite;
+    }
+    .section_title{
+        color: $cwhite;
+    }
+    .product_list_wrap{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+            margin: 0;
+            padding: 0 15px;
+            list-style: none;
+            li{
+                .product_detals{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    color: $cwhite;
+                    h3{
+                        font-size: 12px;
+                    }
+                }
+                figure{
+                    img{
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

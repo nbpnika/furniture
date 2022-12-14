@@ -1,0 +1,222 @@
+* {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: #384353;
+}
+
+.section_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border: 1px solid #DFDEDB;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .section_title {
+    margin-bottom: 0px;
+  }
+}
+
+.shopAll_title {
+  display: flex;
+  justify-content: center;
+  padding: 22px 0;
+  font-size: 12px;
+  border: 1px solid #DFDEDB;
+  margin-bottom: 16px;
+}
+
+header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+section.hero {
+  height: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.hero figure {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+section.hero figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero_content .page_title {
+  margin-bottom: 48px;
+  font-size: 96px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .hero_content .page_title {
+    font-size: 36px;
+    font-weight: 400;
+  }
+}
+.hero_content .page_title span {
+  font-style: italic;
+}
+@media screen and (max-width: 1024px) {
+  .hero_content .page_title span {
+    font-style: normal;
+  }
+}
+.hero_content .hero_button {
+  display: flex;
+  justify-content: center;
+}
+.hero_content .hero_button a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 36px;
+  border-radius: 8px;
+  background-color: #F8F4E7;
+  color: #384353;
+  text-decoration: none;
+}
+
+.our_products .products_list ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0 15px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 1024px) {
+  .our_products .products_list ul {
+    gap: 0;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .our_products .products_list ul li {
+    width: 50%;
+    padding: 8px;
+    border-top: 1px solid #DFDEDB;
+  }
+  .our_products .products_list ul li:nth-child(odd) {
+    border-right: 1px solid #DFDEDB;
+  }
+}
+.our_products .products_list ul li .product_detals {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+@media screen and (max-width: 1024px) {
+  .our_products .products_list ul li .product_detals {
+    font-size: 12px;
+    line-height: 14px;
+    flex-direction: column;
+  }
+}
+.our_products .products_list ul li .product_detals h3 {
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.our_products .products_list ul li figure img {
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .our_products .products_list ul li figure img {
+    width: 100%;
+    height: 154px;
+  }
+}
+
+section.about_us_section {
+  display: flex;
+  justify-content: space-between;
+}
+section.about_us_section .about_us_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #384353;
+  color: #ffffff;
+  width: 50%;
+}
+section.about_us_section .about_us_box a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 26px;
+  font-size: 12px;
+}
+section.about_us_section .about_us_title {
+  font-size: 36px;
+  margin-bottom: 48px;
+}
+section.about_us_section .about_us_image {
+  width: 870px;
+}
+section.about_us_section .about_us_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.product_detales_section {
+  background-color: #384353;
+  margin-bottom: 54px;
+}
+.product_detales_section h2 {
+  font-weight: 400;
+}
+.product_detales_section .shopAll_title {
+  color: #ffffff;
+}
+.product_detales_section .section_title {
+  color: #ffffff;
+}
+.product_detales_section .product_list_wrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0;
+  padding: 0 15px;
+  list-style: none;
+}
+.product_detales_section .product_list_wrap ul li .product_detals {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #ffffff;
+}
+.product_detales_section .product_list_wrap ul li .product_detals h3 {
+  font-size: 12px;
+}
+.product_detales_section .product_list_wrap ul li figure img {
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
