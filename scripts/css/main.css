@@ -186,13 +186,14 @@ section.about_us_section .about_us_image img {
 
 .product_detales_section {
   background-color: #384353;
-  margin-bottom: 54px;
+  margin-bottom: 0px;
 }
 .product_detales_section h2 {
   font-weight: 400;
 }
 .product_detales_section .shopAll_title {
   color: #ffffff;
+  margin-bottom: 0px;
 }
 .product_detales_section .section_title {
   color: #ffffff;
@@ -217,6 +218,112 @@ section.about_us_section .about_us_image img {
 }
 .product_detales_section .product_list_wrap ul li figure img {
   align-items: center;
+}
+
+.every_detail_matter {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 111px;
+}
+.every_detail_matter .every_detail_text {
+  color: #000000;
+  top: 206px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+.every_detail_matter .every_detail_text h2 {
+  font-weight: 400;
+  font-size: 72px;
+  color: #323334;
+}
+.every_detail_matter .every_detail_text h3 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 36px 0px;
+  color: #323334;
+}
+.every_detail_matter .every_detail_text p {
+  font-size: 15px;
+  margin: 36px 470px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #323334;
+}
+.every_detail_matter figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.every_detail_matter figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.some_products_section {
+  margin-bottom: 154px;
+}
+.some_products_section ul {
+  display: flex;
+  justify-content: center;
+}
+.some_products_section ul li {
+  list-style: none;
+  padding: 0px 33px;
+}
+.some_products_section ul li h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.some_products_section ul li p {
+  font-size: 15px;
+  margin: 24px 0;
+}
+.some_products_section ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #323334;
+}
+
+.contact_us {
+  height: 680px;
+  margin: 80px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_us .contact_us_text h2 {
+  font-size: 72px;
+  font-weight: 400;
+  color: #F5F4F3;
+  margin-top: 48px;
+  text-align: center;
+}
+.contact_us .contact_us_text form {
+  display: flex;
+  justify-content: center;
+}
+.contact_us .contact_us_text form input {
+  width: 344px;
+  height: 46px;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding-left: 16px;
+  border: 1px solid #DFDEDB;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.contact_us figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.contact_us figure img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
