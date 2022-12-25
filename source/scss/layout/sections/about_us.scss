@@ -1,13 +1,12 @@
 section.about_us_section{
     display: flex;
-    justify-content: space-between;
     .about_us_box{
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: $cmain;
         color: $cwhite;
-        width: 50%;
+        flex: 1;
         a{
             display: inline-block;
             color: $cwhite;
@@ -21,7 +20,7 @@ section.about_us_section{
         margin-bottom: 48px;
     }
     .about_us_image{
-        width: 870px;
+        flex: 1;
         img{
             width: 100%;
             height: 100%;

@@ -34,6 +34,55 @@ body {
   margin-bottom: 16px;
 }
 
+footer {
+  background-color: #384353;
+  color: #F5F4F3;
+  padding-bottom: 22px;
+}
+footer .copyRight {
+  border: 1px solid #DFDEDB;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #DFDEDB;
+  padding: 24px 0;
+  text-align: center;
+}
+footer figure {
+  margin: 92px 0;
+  display: flex;
+  justify-content: center;
+}
+footer .footer_navs {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+footer .footer_navs .footer_nav {
+  flex: 1;
+  border-right: 1px solid #DFDEDB;
+  border-bottom: 1px solid #DFDEDB;
+  justify-content: center;
+  padding: 25px 56px;
+}
+footer .footer_navs .footer_nav nav {
+  display: flex;
+}
+footer .footer_navs .footer_nav nav ul {
+  justify-content: space-around;
+}
+footer .footer_navs .footer_nav nav ul div {
+  padding-bottom: 16px;
+}
+footer .footer_navs .footer_nav nav ul li {
+  list-style: none;
+  padding-bottom: 14px;
+}
+footer .footer_navs .footer_nav nav ul li a {
+  color: #F5F4F3;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 header {
   position: absolute;
   left: 0px;
@@ -155,7 +204,6 @@ section.hero figure img {
 
 section.about_us_section {
   display: flex;
-  justify-content: space-between;
 }
 section.about_us_section .about_us_box {
   display: flex;
@@ -163,7 +211,7 @@ section.about_us_section .about_us_box {
   align-items: center;
   background-color: #384353;
   color: #ffffff;
-  width: 50%;
+  flex: 1;
 }
 section.about_us_section .about_us_box a {
   display: inline-block;
@@ -177,7 +225,7 @@ section.about_us_section .about_us_title {
   margin-bottom: 48px;
 }
 section.about_us_section .about_us_image {
-  width: 870px;
+  flex: 1;
 }
 section.about_us_section .about_us_image img {
   width: 100%;
